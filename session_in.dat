@@ -1,0 +1,6 @@
+input_struc_xyz_file			Au15_left_input.xyz
+use_mirror_from_input?			.TRUE.    	Note:.TRUE. or .FALSE. If .TRUE. mirrro_struct_xyz_file is irrelevant 
+mirror_struc_xyz_file			Au15_right_input.xyz
+output_file				HCM.dat
+angle_interval				360
+opt_percentile				0.00001
