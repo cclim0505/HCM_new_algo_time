@@ -22,6 +22,9 @@ $(PROG): $(OBJS) $(EXTRAS)
 
 
 clean:
-	rm $(PROG)
 	rm *.o
-
+	rm *.mod
+cleaner:
+	rm *.o
+	rm *.mod
+	rm $(PROG)
