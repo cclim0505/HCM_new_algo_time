@@ -4,8 +4,8 @@
 !
         PROGRAM main
 
-        USE initialise
-        USE simulate
+        USE initialise          ,ONLY:start_session
+        USE simulate            ,ONLY:single_simul
 
         IMPLICIT NONE
         INTEGER :: c1,c2,c_rate

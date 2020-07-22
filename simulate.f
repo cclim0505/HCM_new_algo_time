@@ -1,7 +1,9 @@
         MODULE simulate
-        USE initialise          
-        USE hausdorff
-        USE deriv
+        USE initialise          ,ONLY: atoms,mir_coord &
+     &       ,opt_percentile
+        USE hausdorff           ,ONLY: calc_haus_diameter &
+     &        ,compute_haus_distances ,calc_haus_dist
+!        USE deriv
         USE optimization
         USE rotations
         CONTAINS
